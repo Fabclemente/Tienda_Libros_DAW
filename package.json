@@ -1,5 +1,5 @@
 {
-  "name": "book-haven",
+  "name": "tienda-online",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:Book_Haven": "node dist/book-haven/server/server.mjs"
+    "serve:ssr:Tienda_Online": "node dist/tienda-online/server/server.mjs",
+    "serve:ssr:module": "node dist/module/server/server.mjs"
   },
   "private": true,
   "dependencies": {
